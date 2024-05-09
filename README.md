@@ -1,6 +1,14 @@
 ![image](https://github.com/TamarVilner/SimonGame/assets/144704638/64f5edec-00b7-4029-bfd9-4e529135ae37)
 
 
+# SimonGame
+
+by Wokwi simulation, Real Time Embedded
+
+[press me to start gmae](https://wokwi.com/projects/397403074874797057)
+
+
+```c++
 #include "pitches.h"
 #define SPEAKER_PIN 18
 #define MAX_GAME_LENGTH  100
@@ -108,5 +116,11 @@ void playLevelUpSound(){
     delay(150);
     noTone(SPEAKER_PIN); 
  }
+
+
+
+```
+
+
 
 
